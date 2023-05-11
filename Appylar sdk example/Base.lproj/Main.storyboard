@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bct-PB-G7I">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Appylar demo-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Appylar_sdk_example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7PK-MM-Eiz">
+                                <rect key="frame" x="10" y="187" width="355" height="297"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="U9m-yJ-o7C">
+                                        <rect key="frame" x="20" y="59.999999999999986" width="315" height="174.66666666666663"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SP9-uZ-oF3">
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="28.666666666666668"/>
+                                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="SHOW INTERSTITIAL">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnShowIntersitialDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NpQ-fO-WR3"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="GUs-pD-W5j">
+                                                <rect key="frame" x="0.0" y="48.666666666666686" width="315" height="28.666666666666671"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="BYZ-38-t0r" id="XBq-Fe-59W"/>
+                                                </connections>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYL-xx-Kbx">
+                                                <rect key="frame" x="0.0" y="97.333333333333314" width="315" height="28.666666666666671"/>
+                                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="SHOW BANNER">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnShowBannerDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HTB-HX-hNa"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Be5-Ha-EaJ">
+                                                <rect key="frame" x="0.0" y="146" width="315" height="28.666666666666657"/>
+                                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="HIDE BANNER">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnHideBannerDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jby-ck-cac"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="U9m-yJ-o7C" secondAttribute="trailing" constant="20" id="7kz-3m-3EB"/>
+                                    <constraint firstAttribute="height" constant="297" id="Ith-BU-G2b"/>
+                                    <constraint firstItem="U9m-yJ-o7C" firstAttribute="top" secondItem="7PK-MM-Eiz" secondAttribute="top" constant="60" id="Uou-Hg-4Go"/>
+                                    <constraint firstItem="U9m-yJ-o7C" firstAttribute="leading" secondItem="7PK-MM-Eiz" secondAttribute="leading" constant="20" id="ep8-y5-lju"/>
+                                    <constraint firstItem="U9m-yJ-o7C" firstAttribute="centerX" secondItem="7PK-MM-Eiz" secondAttribute="centerX" id="moI-a4-vpw"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ce-w1-Ryc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="91"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fph-Wf-dWO" customClass="BannerView" customModule="Appylar_SDK_iOS">
+                                <rect key="frame" x="0.0" y="141" width="375" height="0.0"/>
+                                <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="DrS-Rx-kxL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x8a-x5-FSh">
+                                <rect key="frame" x="0.0" y="91" width="375" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Appylar Sample" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Py8-d5-DFP">
+                                        <rect key="frame" x="20" y="14.999999999999998" width="136.33333333333334" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                <constraints>
+                                    <constraint firstItem="Py8-d5-DFP" firstAttribute="leading" secondItem="x8a-x5-FSh" secondAttribute="leading" constant="20" id="1Db-E4-aka"/>
+                                    <constraint firstAttribute="height" constant="50" id="IwR-YY-Z8W"/>
+                                    <constraint firstItem="Py8-d5-DFP" firstAttribute="centerY" secondItem="x8a-x5-FSh" secondAttribute="centerY" id="P85-g7-uDV"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpa-kW-MMr" customClass="BannerView" customModule="Appylar_SDK_iOS">
+                                <rect key="frame" x="0.0" y="778" width="375" height="0.0"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="C3j-Nf-ab3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7PK-MM-Eiz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="1fK-G2-tMx"/>
+                            <constraint firstItem="fph-Wf-dWO" firstAttribute="top" secondItem="x8a-x5-FSh" secondAttribute="bottom" id="5LX-sn-L1y"/>
+                            <constraint firstItem="Cpa-kW-MMr" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5bX-hc-q0R"/>
+                            <constraint firstItem="7PK-MM-Eiz" firstAttribute="top" secondItem="fph-Wf-dWO" secondAttribute="bottom" constant="46" id="84e-Cn-KeL"/>
+                            <constraint firstItem="0Ce-w1-Ryc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IV3-9W-xXO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="0Ce-w1-Ryc" secondAttribute="bottom" id="JI8-DA-29W"/>
+                            <constraint firstItem="x8a-x5-FSh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JaF-ig-ssL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7PK-MM-Eiz" secondAttribute="trailing" constant="10" id="Nd6-YO-vxh"/>
+                            <constraint firstItem="Cpa-kW-MMr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ch5-xh-MM7"/>
+                            <constraint firstItem="x8a-x5-FSh" firstAttribute="top" secondItem="0Ce-w1-Ryc" secondAttribute="bottom" id="dJU-Op-dTh"/>
+                            <constraint firstItem="0Ce-w1-Ryc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fvC-73-6M6"/>
+                            <constraint firstAttribute="trailing" secondItem="0Ce-w1-Ryc" secondAttribute="trailing" id="kFF-Cp-Zqx"/>
+                            <constraint firstItem="Cpa-kW-MMr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rvY-CS-IPK"/>
+                            <constraint firstItem="x8a-x5-FSh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uiG-Bu-R9b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fph-Wf-dWO" secondAttribute="trailing" id="ulq-sA-1D3"/>
+                            <constraint firstItem="fph-Wf-dWO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="w9r-Qd-bcG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Appylar demo" largeTitleDisplayMode="always" id="qkl-im-QJU"/>
+                    <connections>
+                        <outlet property="btnHideBanner" destination="Be5-Ha-EaJ" id="2JG-bc-DwD"/>
+                        <outlet property="btnShowBanner" destination="WYL-xx-Kbx" id="vMy-jq-ToD"/>
+                        <outlet property="btnShowInterstitial" destination="SP9-uZ-oF3" id="BAK-Rd-tFw"/>
+                        <outlet property="topBannerView" destination="fph-Wf-dWO" id="pjc-x5-fIN"/>
+                        <outlet property="txtPlacement" destination="GUs-pD-W5j" id="gnI-oc-0mM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2404" y="49.50738916256158"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WyQ-mn-xD4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2GI-qU-7y3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pJU-ae-vTO">
+                        <rect key="frame" x="0.0" y="47" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T12-A6-TC1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="519.20000000000005" y="49.50738916256158"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="S8O-0K-B9H">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bct-PB-G7I" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" id="9f6-YC-NCz">
+                        <rect key="frame" x="0.0" y="47" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="EK6-Mg-TRa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x7D-s1-RLU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1461.5999999999999" y="49.50738916256158"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

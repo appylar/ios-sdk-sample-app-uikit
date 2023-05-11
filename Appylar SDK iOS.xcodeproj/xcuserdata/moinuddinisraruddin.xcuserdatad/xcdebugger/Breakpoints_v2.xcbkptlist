@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F77DCF12-8A00-47B5-B179-FC34B396FDA2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F3F6D70-52CB-47DE-BB74-F8B35B5E974C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/BannerViewDetails/BannerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "showAd(position:placement:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A26C851F-7C30-4984-9FAF-E11F8FAF9A69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/Appylar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "Init(testmode:app_Key:app_id:orientations:Adtypes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49C9D969-6D2B-4283-8D67-9AB34A477D55"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/Appylar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "Init(testmode:app_Key:app_id:orientations:Adtypes:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "49C9D969-6D2B-4283-8D67-9AB34A477D55 - db4fb895c560fe97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Appylar_SDK_iOS.Appylar.initializeWithApiKey(testmode: Swift.Bool, app_Key: Swift.String, app_id: Swift.String, orientations: Swift.Array&lt;Appylar_SDK_iOS.AdOrientation&gt;, Adtypes: Swift.Array&lt;Appylar_SDK_iOS.AdType&gt;) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Downloads/appylar-sdk-ios%203/Appylar%20SDK%20iOS/Models/Core/Appylar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "4025">
+               </Location>
+               <Location
+                  uuid = "49C9D969-6D2B-4283-8D67-9AB34A477D55 - 1444bec432b8c585"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in static Appylar_SDK_iOS.Appylar.initializeWithApiKey(testmode: Swift.Bool, app_Key: Swift.String, app_id: Swift.String, orientations: Swift.Array&lt;Appylar_SDK_iOS.AdOrientation&gt;, Adtypes: Swift.Array&lt;Appylar_SDK_iOS.AdType&gt;) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Downloads/appylar-sdk-ios%203/Appylar%20SDK%20iOS/Models/Core/Appylar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D502424-26F4-400D-8F5B-48A7F10EA702"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/BannerViewDetails/AdViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "hideInterstitialAds()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A546B81C-3981-4A96-AE86-7F9642C6C134"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar sdk example/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "sceneDidDisconnect(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1C03BDD-0DD8-4EE3-BE1B-C603F10EE4AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/BannerViewDetails/AdViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "startAdRotationOnPosition()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C3970D0-2222-4E04-8E7F-7D14D19880F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/BannerViewDetails/AdViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "startAdRotationOnPosition()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3565E819-BF78-4F13-AE42-3516358D235D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/Appylar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "Appylar"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4607FB10-0394-4283-92F4-29BB27B79F27"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/Appylar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "Init(testmode:app_Key:app_id:orientations:Adtypes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "365AA516-37E7-4F52-AEE1-BB4BE216786D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/Appylar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "retrieveAds(isForBuffer:combination:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3758C41-2C68-458F-A2E8-FFC0BFF69F9E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/Appylar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "Appylar"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F3758C41-2C68-458F-A2E8-FFC0BFF69F9E - 1752336762d71ec9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Appylar_SDK_iOS.Appylar.setParameters(bannerHeight: Swift.Int, ageRestriction: Swift.Int) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios_finalcode%2010:3:23/Appylar%20SDK%20iOS/Models/Core/Appylar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "1135">
+               </Location>
+               <Location
+                  uuid = "F3758C41-2C68-458F-A2E8-FFC0BFF69F9E - 9f7cdc31f982b9d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; () in static Appylar_SDK_iOS.Appylar.setParameters(bannerHeight: Swift.Int, ageRestriction: Swift.Int) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios_finalcode%2010:3:23/Appylar%20SDK%20iOS/Models/Core/Appylar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A803172-1CDF-4846-B223-0D9DBD3E0574"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/Appylar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "Init(testmode:app_Key:app_id:orientations:Adtypes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4D09317-A904-452A-B838-F61DACEC3FDB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/BannerViewDetails/BannerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "startAdRotationOnPosition(position:placement:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E4D09317-A904-452A-B838-F61DACEC3FDB - b8d61b60c4c640cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Appylar_SDK_iOS.BannerView.startAdRotationOnPosition(position: Appylar_SDK_iOS.BannerPosition, placement: Swift.String) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios_finalcode%2010:3:23/Appylar%20SDK%20iOS/BannerViewDetails/BannerView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "4566">
+               </Location>
+               <Location
+                  uuid = "E4D09317-A904-452A-B838-F61DACEC3FDB - 8b7356dc03ad5018"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; () in Appylar_SDK_iOS.BannerView.startAdRotationOnPosition(position: Appylar_SDK_iOS.BannerPosition, placement: Swift.String) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios_finalcode%2010:3:23/Appylar%20SDK%20iOS/BannerViewDetails/BannerView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10AB4445-D942-4926-A196-450138E10B30"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/BannerViewDetails/AdViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "startAdRotationOnPosition()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "10AB4445-D942-4926-A196-450138E10B30 - abab19ad38c60006"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Appylar_SDK_iOS.AdViewController.startAdRotationOnPosition() -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios_finalcode%2010:3:23/Appylar%20SDK%20iOS/BannerViewDetails/AdViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "2226">
+               </Location>
+               <Location
+                  uuid = "10AB4445-D942-4926-A196-450138E10B30 - 873bceba94be67db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; () in Appylar_SDK_iOS.AdViewController.startAdRotationOnPosition() -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios_finalcode%2010:3:23/Appylar%20SDK%20iOS/BannerViewDetails/AdViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F6DDDC7-76FE-4CF5-98A8-735A06FE6A2E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/Appylar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "setParameters(dict:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50B344BA-77AE-4A99-8DD5-C653AD4D482D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/ApiServices/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "callApi(endPoint:requestType:params:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D2D2681-C0E3-47E1-BAAD-2A4B41CAF7DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/Appylar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "retrieveAds(isForBuffer:combination:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4D2D2681-C0E3-47E1-BAAD-2A4B41CAF7DD - 83ab49c335e5c4d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[1] = Value Promoted from Box&gt; of closure #1 @Swift.MainActor () -&gt; () in static Appylar_SDK_iOS.Appylar.retrieveAds(isForBuffer: Swift.Bool, combination: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios_finalcode%2013:3:23/Appylar%20SDK%20iOS/Models/Core/Appylar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "4D2D2681-C0E3-47E1-BAAD-2A4B41CAF7DD - 6b6f79a5d9da90ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; () in closure #1 @Swift.MainActor () -&gt; () in static Appylar_SDK_iOS.Appylar.retrieveAds(isForBuffer: Swift.Bool, combination: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios_finalcode%2013:3:23/Appylar%20SDK%20iOS/Models/Core/Appylar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "178"
+                  endingLineNumber = "178"
+                  offsetFromSymbolStart = "81">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5E57FF5-738F-4E6E-A0DB-21371533A8EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/Appylar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "Init(testmode:app_Key:app_id:orientations:Adtypes:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F5E57FF5-738F-4E6E-A0DB-21371533A8EC - 387a46997e37dbfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Appylar_SDK_iOS.Appylar.Init(testmode: Swift.Bool, app_Key: Swift.String, app_id: Swift.String, orientations: Swift.Array&lt;Appylar_SDK_iOS.AdOrientation&gt;, Adtypes: Swift.Array&lt;Appylar_SDK_iOS.AdType&gt;) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Models/Core/Appylar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "4104">
+               </Location>
+               <Location
+                  uuid = "F5E57FF5-738F-4E6E-A0DB-21371533A8EC - 3d82b0254e1048e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in static Appylar_SDK_iOS.Appylar.Init(testmode: Swift.Bool, app_Key: Swift.String, app_id: Swift.String, orientations: Swift.Array&lt;Appylar_SDK_iOS.AdOrientation&gt;, Adtypes: Swift.Array&lt;Appylar_SDK_iOS.AdType&gt;) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Models/Core/Appylar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAAD7A7D-1312-40E1-9DB6-1A52F8E0C176"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/Appylar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "retrieveAds(isForBuffer:combination:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BAAD7A7D-1312-40E1-9DB6-1A52F8E0C176 - 7187b7d5ec297c77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Appylar_SDK_iOS.Appylar.retrieveAds(isForBuffer: Swift.Bool, combination: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Models/Core/Appylar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "2905">
+               </Location>
+               <Location
+                  uuid = "BAAD7A7D-1312-40E1-9DB6-1A52F8E0C176 - c7d5a93aeeac8bd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; () in static Appylar_SDK_iOS.Appylar.retrieveAds(isForBuffer: Swift.Bool, combination: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Models/Core/Appylar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "189"
+                  endingLineNumber = "189"
+                  offsetFromSymbolStart = "81">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E380C622-D772-4069-AEDF-DE977F7DE06D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/Appylar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "retrieveAds(isForBuffer:combination:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5011358F-22D9-4485-8ED1-33B63633C289"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/ApiServices/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "callApi(endPoint:requestType:params:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77A97001-C383-45DF-BC8F-BF1499BA39E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar sdk example/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "btnBannerositionBottomDidTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8B7E6B0-A211-4005-85C6-A73523917DE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Views/InterstitialViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "adDisplaying"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D8B7E6B0-A211-4005-85C6-A73523917DE9 - c9aacd4ac624d3f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Appylar_SDK_iOS.InterstitialViewController.adDisplaying.didset : Swift.Bool"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Views/InterstitialViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "564">
+               </Location>
+               <Location
+                  uuid = "D8B7E6B0-A211-4005-85C6-A73523917DE9 - 6d2ec21c9add8efa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Appylar_SDK_iOS.InterstitialViewController.showAd(placement: Swift.String) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Views/InterstitialViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "66">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84D3697E-FDC7-40F8-8D10-1803CBCCA0F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Views/InterstitialViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "InterstitialViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "84D3697E-FDC7-40F8-8D10-1803CBCCA0F3 - 5825b3bd29e8d9f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Appylar_SDK_iOS.InterstitialViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Views/InterstitialViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "97">
+               </Location>
+               <Location
+                  uuid = "84D3697E-FDC7-40F8-8D10-1803CBCCA0F3 - 336c3decbd6b596f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Appylar_SDK_iOS.InterstitialViewController.showAdInternal(placement: Swift.String) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Views/InterstitialViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "246">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85A9D896-2593-4363-8331-8AEB5C753377"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/AppylarManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "AppylarManager"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "85A9D896-2593-4363-8331-8AEB5C753377 - a9f5aedc09c01f7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Appylar_SDK_iOS.AppylarManager.Init(appKey: Swift.String, adTypes: Swift.Array&lt;Appylar_SDK_iOS.AdType&gt;, orientations: Swift.Array&lt;Appylar_SDK_iOS.AdOrientation&gt;, testMode: Swift.Bool) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Models/Core/AppylarManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "85A9D896-2593-4363-8331-8AEB5C753377 - a9f5aedc09c01f7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Appylar_SDK_iOS.AppylarManager.Init(appKey: Swift.String, adTypes: Swift.Array&lt;Appylar_SDK_iOS.AdType&gt;, orientations: Swift.Array&lt;Appylar_SDK_iOS.AdOrientation&gt;, testMode: Swift.Bool) -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Models/Core/AppylarManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "418">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "905D1F63-13AB-4BFA-A636-963BE351549F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/ApiServices/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "296"
+            endingLineNumber = "296"
+            landmarkName = "callingApi()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "905D1F63-13AB-4BFA-A636-963BE351549F - 9a91cec04988a019"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor () -&gt; () in closure #1 (Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;) -&gt; () in callingApi() -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Models/ApiServices/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "296"
+                  endingLineNumber = "296"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "905D1F63-13AB-4BFA-A636-963BE351549F - ead4513f35cf0018"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (__C.NSTimer) -&gt; () in closure #2 @Swift.MainActor () -&gt; () in closure #1 (Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;) -&gt; () in callingApi() -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Models/ApiServices/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "297"
+                  endingLineNumber = "297"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "905D1F63-13AB-4BFA-A636-963BE351549F - 39bde821a5aaa096"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;) -&gt; () in callingApi() -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Models/ApiServices/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "296"
+                  endingLineNumber = "296"
+                  offsetFromSymbolStart = "2959">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42B6B3D0-13D5-4BC7-B35D-09081A9D5295"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/ApiServices/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "277"
+            endingLineNumber = "277"
+            landmarkName = "callApiToCreateSessionToken(params:orientations:adTypes:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "42B6B3D0-13D5-4BC7-B35D-09081A9D5295 - 39bde821a5aaad23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;) -&gt; () in callingApi() -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Models/ApiServices/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "419">
+               </Location>
+               <Location
+                  uuid = "42B6B3D0-13D5-4BC7-B35D-09081A9D5295 - 39bde821a5aaad23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;) -&gt; () in callingApi() -&gt; ()"
+                  moduleName = "Appylar_SDK_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moinuddinisraruddin/Desktop/appylar-sdk-ios/Appylar%20SDK%20iOS/Models/ApiServices/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "220AF0FF-D741-4FDF-B357-4ED220895403"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Appylar SDK iOS/Models/Core/AppylarManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "Init(appKey:adTypes:orientations:testMode:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
