@@ -1,0 +1,11 @@
+framework module Appylar_SDK_iOS {
+  umbrella header "Appylar_SDK_iOS.h"
+
+  export *
+  module * { export * }
+}
+
+module Appylar_SDK_iOS.Swift {
+  header "Appylar_SDK_iOS-Swift.h"
+  requires objc
+}
