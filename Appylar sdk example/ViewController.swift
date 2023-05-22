@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Appylar_SDK_iOS
+import Appylar
 
 class ViewController: InterstitialViewController {
     @IBOutlet weak var btnShowBanner: UIButton!

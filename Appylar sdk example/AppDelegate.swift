@@ -7,7 +7,7 @@
 
 import UIKit
 import CoreData
-import Appylar_SDK_iOS
+import Appylar
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

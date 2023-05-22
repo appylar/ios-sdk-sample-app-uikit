@@ -83,7 +83,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="91"/>
                                 <color key="backgroundColor" systemColor="systemCyanColor"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fph-Wf-dWO" customClass="BannerView" customModule="Appylar_SDK_iOS">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fph-Wf-dWO" customClass="BannerView" customModule="Appylar">
                                 <rect key="frame" x="0.0" y="141" width="375" height="0.0"/>
                                 <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
                                 <constraints>
@@ -107,7 +107,7 @@
                                     <constraint firstItem="Py8-d5-DFP" firstAttribute="centerY" secondItem="x8a-x5-FSh" secondAttribute="centerY" id="P85-g7-uDV"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpa-kW-MMr" customClass="BannerView" customModule="Appylar_SDK_iOS">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpa-kW-MMr" customClass="BannerView" customModule="Appylar">
                                 <rect key="frame" x="0.0" y="778" width="375" height="0.0"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
