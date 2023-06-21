@@ -4,99 +4,99 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/Appylar_SDK_iOS-Swift.h</key>
+		<key>Headers/Appylar-Swift.h</key>
 		<data>
-		VESg97qIEXPp0vroWH7SidIK20A=
+		QhuhXh7IGtB8DzWsgvTQ9u7VYpU=
 		</data>
-		<key>Headers/Appylar_SDK_iOS.h</key>
+		<key>Headers/Appylar.h</key>
 		<data>
-		dhJKt4T/iA3/TEODcdCWuBE96vQ=
+		9zJUXw6wlYIYoE2iA3bMxGcM+Wk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LTv52MgGnhhkXbcJqw/bOxNC0VM=
+		/WCwhOEGXHXxFpgRnIeBJa7SA5k=
 		</data>
-		<key>Modules/Appylar_SDK_iOS.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/Appylar.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		8bjhqFOXT3nrS0RxhsyQ29pStBk=
+		v5BsmI5rVcOfktTsjLV3b2LVV9Y=
 		</data>
-		<key>Modules/Appylar_SDK_iOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/Appylar.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		hsTjolKCdXqoHXa7ejwfI8s66tE=
+		9SKm+hLY7sydMlPFauVrTkJvPn8=
 		</data>
-		<key>Modules/Appylar_SDK_iOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/Appylar.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Xuhf0b/H5kPKKn2/c0WWqtUlXnU=
+		pZ+HflCvg0ugqnJmmC+yeDVUZdU=
 		</data>
-		<key>Modules/Appylar_SDK_iOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/Appylar.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		hsTjolKCdXqoHXa7ejwfI8s66tE=
+		9SKm+hLY7sydMlPFauVrTkJvPn8=
 		</data>
-		<key>Modules/Appylar_SDK_iOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/Appylar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		CzOa3fZXVnt6cBRzhJDZmkvnDW8=
+		VeBMAL00DhHgIGdQzEhh16piS7s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		HjEpNdi1XyepOir/V/luBuczNkI=
+		1Ts2Kp1IroXNpe5YI7XsSY/iPGY=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/Appylar_SDK_iOS-Swift.h</key>
+		<key>Headers/Appylar-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CN6VL9aBT9F5icN7SYFN7oTcUQn8gUEDwVrieZgvQmI=
+			qPLUU1Y6xt/j2gzvoFZSf/iTKQWifbujJ6+FcYl95j8=
 			</data>
 		</dict>
-		<key>Headers/Appylar_SDK_iOS.h</key>
+		<key>Headers/Appylar.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Ro+Sc00Q+gLzNxvDQg4ZZ/JMjFTzy9zYR2sfbRyHaA=
+			xLJ6ljHMA5SOD7Y4MiNavksV91o9YjsgwaTZKfgTeZw=
 			</data>
 		</dict>
-		<key>Modules/Appylar_SDK_iOS.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/Appylar.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BH8Mp9IyxZotNG2Wt00ihY4LpAjCpDOgXv3oTMdfx7g=
+			EHFiEcy4KK7ebyPgEiTA273rJHP4rONX5Oyg9luNbIM=
 			</data>
 		</dict>
-		<key>Modules/Appylar_SDK_iOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/Appylar.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HFYHsT5Xz4u0UrSQ/b9/kfV12OXJ+e1nBKHXnx1d/w0=
+			lQpITQTzeS19Zv2xrrbjQ/Z1OvuQQeAiIstmkQ9KlKo=
 			</data>
 		</dict>
-		<key>Modules/Appylar_SDK_iOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/Appylar.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O4xyQlOv0c7tEjPiQOThGuWKNAf0JZjT7cI0aczdz1U=
+			KK0wnjA/pwl/2zXWfQNlux/kvcS/Cd6sAk9djrhGcDY=
 			</data>
 		</dict>
-		<key>Modules/Appylar_SDK_iOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/Appylar.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HFYHsT5Xz4u0UrSQ/b9/kfV12OXJ+e1nBKHXnx1d/w0=
+			lQpITQTzeS19Zv2xrrbjQ/Z1OvuQQeAiIstmkQ9KlKo=
 			</data>
 		</dict>
-		<key>Modules/Appylar_SDK_iOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/Appylar.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K+BknRgGYVAhnBBO+IZI0Pyx9F6QfqUPmLGtUixOtwU=
+			uzGdi3x6nKfsikTMEkCJ12UVocfqGT5QtSC8LYn3v2U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dnEkbeJWM2id+Sf6J2vBA++s/3g5ARSoBi58i7Djpxg=
+			GG+Q9ASJ9Y64q2T3BQRvSclW7z8ROtE2Fn/8/drQ9Yo=
 			</data>
 		</dict>
 	</dict>

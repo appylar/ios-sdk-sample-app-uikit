@@ -1,8 +1,8 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Appylar_SDK_iOS
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Appylar
 // swift-module-flags-ignorable: -enable-bare-slash-regex
-@_exported import Appylar_SDK_iOS
+@_exported import Appylar
 import Foundation
 import SafariServices
 import Swift
@@ -23,7 +23,7 @@ import _StringProcessing
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-extension Appylar_SDK_iOS.InterstitialViewController : WebKit.WKScriptMessageHandler, SafariServices.SFSafariViewControllerDelegate {
+extension Appylar.InterstitialViewController : WebKit.WKScriptMessageHandler, SafariServices.SFSafariViewControllerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic open func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
 }
@@ -33,8 +33,8 @@ extension Appylar_SDK_iOS.InterstitialViewController : WebKit.WKScriptMessageHan
 }
 @_hasMissingDesignatedInitializers public class AppylarManager {
   public static var supportedOrientation: UIKit.UIInterfaceOrientationMask
-  public static func setEventListener(delegate: Appylar_SDK_iOS.AppylarDelegate, bannerDelegate: Appylar_SDK_iOS.BannerViewDelegate, interstitialDelegate: Appylar_SDK_iOS.InterstitialDelegate)
-  public static func Init(appKey: Swift.String, adTypes: [Appylar_SDK_iOS.AdType], orientations: [Appylar_SDK_iOS.AdOrientation], testMode: Swift.Bool)
+  public static func setEventListener(delegate: Appylar.AppylarDelegate, bannerDelegate: Appylar.BannerViewDelegate, interstitialDelegate: Appylar.InterstitialDelegate)
+  public static func Init(appKey: Swift.String, adTypes: [Appylar.AdType], testMode: Swift.Bool)
   public static func setParameters(dict: [Swift.String : [Swift.String]?])
   @objc deinit
 }
@@ -48,8 +48,8 @@ public enum AdOrientation : Swift.String {
   }
 }
 @_hasMissingDesignatedInitializers public class Session {
-  public static var adTypes: [Appylar_SDK_iOS.AdType]
-  public static var orientations: [Appylar_SDK_iOS.AdOrientation]
+  public static var adTypes: [Appylar.AdType]
+  public static var orientations: [Appylar.AdOrientation]
   public static var printLog: Swift.Bool
   @objc deinit
 }
@@ -84,13 +84,13 @@ public protocol InterstitialDelegate {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-extension Appylar_SDK_iOS.BannerView : WebKit.WKUIDelegate, WebKit.WKNavigationDelegate, WebKit.WKScriptMessageHandler {
+extension Appylar.BannerView : WebKit.WKUIDelegate, WebKit.WKNavigationDelegate, WebKit.WKScriptMessageHandler {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
 }
-extension Appylar_SDK_iOS.AdOrientation : Swift.Equatable {}
-extension Appylar_SDK_iOS.AdOrientation : Swift.Hashable {}
-extension Appylar_SDK_iOS.AdOrientation : Swift.RawRepresentable {}
-extension Appylar_SDK_iOS.AdType : Swift.Equatable {}
-extension Appylar_SDK_iOS.AdType : Swift.Hashable {}
-extension Appylar_SDK_iOS.AdType : Swift.RawRepresentable {}
+extension Appylar.AdOrientation : Swift.Equatable {}
+extension Appylar.AdOrientation : Swift.Hashable {}
+extension Appylar.AdOrientation : Swift.RawRepresentable {}
+extension Appylar.AdType : Swift.Equatable {}
+extension Appylar.AdType : Swift.Hashable {}
+extension Appylar.AdType : Swift.RawRepresentable {}
