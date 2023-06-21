@@ -17,7 +17,6 @@ class ViewController: InterstitialViewController {
     
     var apiKey = "OwDmESooYtY2kNPotIuhiQ"
     var selectedAdTypes = [AdType.interstitial, AdType.banner]
-    var selectedOrientations =  [AdOrientation.portrait, AdOrientation.landscape]
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     
     override func viewDidLoad() {
@@ -25,7 +24,7 @@ class ViewController: InterstitialViewController {
         txtPlacement.delegate = self
         txtPlacement.placeholder = "Enter placement(Optional)"
         AppylarManager.setEventListener(delegate: self,bannerDelegate: self,interstitialDelegate: self)
-        AppylarManager.Init(appKey: apiKey, adTypes: self.selectedAdTypes , orientations: self.selectedOrientations, testMode: true)
+        AppylarManager.Init(appKey: apiKey, adTypes: self.selectedAdTypes , testMode: true)
     }
     
     override func viewWillAppear(_ animated: Bool) {
