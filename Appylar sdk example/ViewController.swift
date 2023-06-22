@@ -21,7 +21,11 @@ class ViewController: InterstitialViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        txtPlacement.delegate = self
+        if #available(iOS 13.0, *) {
+            txtPlacement.delegate = self
+        } else {
+            // Fallback on earlier versions
+        }
         txtPlacement.placeholder = "Enter placement(Optional)"
         AppylarManager.setEventListener(delegate: self,bannerDelegate: self,interstitialDelegate: self)
         AppylarManager.Init(appKey: apiKey, adTypes: self.selectedAdTypes , testMode: true)
@@ -93,7 +97,9 @@ extension ViewController: InterstitialDelegate{
 }
 
 //UI
+@available(iOS 13.0, *)
 extension ViewController: UITextFieldDelegate {
+
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         txtPlacement.resignFirstResponder()
         return true
