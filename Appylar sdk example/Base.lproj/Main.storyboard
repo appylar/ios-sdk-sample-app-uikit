@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bct-PB-G7I">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bct-PB-G7I">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,94 +17,70 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7PK-MM-Eiz">
-                                <rect key="frame" x="10" y="187" width="355" height="297"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7PK-MM-Eiz">
+                                <rect key="frame" x="14" y="356" width="355" height="297"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="U9m-yJ-o7C">
-                                        <rect key="frame" x="20" y="59.999999999999986" width="315" height="174.66666666666663"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SP9-uZ-oF3">
-                                                <rect key="frame" x="0.0" y="0.0" width="315" height="28.666666666666668"/>
-                                                <color key="backgroundColor" systemColor="systemCyanColor"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="SHOW INTERSTITIAL">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="btnShowIntersitialDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NpQ-fO-WR3"/>
-                                                </connections>
-                                            </button>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="GUs-pD-W5j">
-                                                <rect key="frame" x="0.0" y="48.666666666666686" width="315" height="28.666666666666671"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                                <connections>
-                                                    <outlet property="delegate" destination="BYZ-38-t0r" id="XBq-Fe-59W"/>
-                                                </connections>
-                                            </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYL-xx-Kbx">
-                                                <rect key="frame" x="0.0" y="97.333333333333314" width="315" height="28.666666666666671"/>
-                                                <color key="backgroundColor" systemColor="systemCyanColor"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="SHOW BANNER">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="btnShowBannerDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HTB-HX-hNa"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Be5-Ha-EaJ">
-                                                <rect key="frame" x="0.0" y="146" width="315" height="28.666666666666657"/>
-                                                <color key="backgroundColor" systemColor="systemCyanColor"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="HIDE BANNER">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="btnHideBannerDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jby-ck-cac"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Be5-Ha-EaJ">
+                                        <rect key="frame" x="20" y="114" width="315" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.45882352941176469" green="0.56470588235294117" blue="0.72941176470588232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="HIDE BANNER">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnHideBannerDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jby-ck-cac"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SP9-uZ-oF3">
+                                        <rect key="frame" x="20" y="165" width="315" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.45882352941176469" green="0.56470588235294117" blue="0.72941176470588232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="SHOW INTERSTITIAL">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnShowIntersitialDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NpQ-fO-WR3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYL-xx-Kbx">
+                                        <rect key="frame" x="20" y="51" width="315" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.45882352941176469" green="0.56470588235294117" blue="0.72941176470588232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="SHOW BANNER">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnShowBannerDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HTB-HX-hNa"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="U9m-yJ-o7C" secondAttribute="trailing" constant="20" id="7kz-3m-3EB"/>
                                     <constraint firstAttribute="height" constant="297" id="Ith-BU-G2b"/>
-                                    <constraint firstItem="U9m-yJ-o7C" firstAttribute="top" secondItem="7PK-MM-Eiz" secondAttribute="top" constant="60" id="Uou-Hg-4Go"/>
-                                    <constraint firstItem="U9m-yJ-o7C" firstAttribute="leading" secondItem="7PK-MM-Eiz" secondAttribute="leading" constant="20" id="ep8-y5-lju"/>
-                                    <constraint firstItem="U9m-yJ-o7C" firstAttribute="centerX" secondItem="7PK-MM-Eiz" secondAttribute="centerX" id="moI-a4-vpw"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ce-w1-Ryc">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="91"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="94"/>
                                 <color key="backgroundColor" systemColor="systemCyanColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fph-Wf-dWO" customClass="BannerView" customModule="Appylar">
-                                <rect key="frame" x="0.0" y="141" width="375" height="0.0"/>
+                                <rect key="frame" x="0.0" y="144" width="375" height="0.0"/>
                                 <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" id="DrS-Rx-kxL"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x8a-x5-FSh">
-                                <rect key="frame" x="0.0" y="91" width="375" height="50"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Appylar Sample" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Py8-d5-DFP">
-                                        <rect key="frame" x="20" y="14.999999999999998" width="136.33333333333334" height="20.333333333333329"/>
-                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x8a-x5-FSh">
+                                <rect key="frame" x="0.0" y="720" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="Py8-d5-DFP" firstAttribute="leading" secondItem="x8a-x5-FSh" secondAttribute="leading" constant="20" id="1Db-E4-aka"/>
                                     <constraint firstAttribute="height" constant="50" id="IwR-YY-Z8W"/>
-                                    <constraint firstItem="Py8-d5-DFP" firstAttribute="centerY" secondItem="x8a-x5-FSh" secondAttribute="centerY" id="P85-g7-uDV"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpa-kW-MMr" customClass="BannerView" customModule="Appylar">
@@ -114,6 +90,16 @@
                                     <constraint firstAttribute="height" id="C3j-Nf-ab3"/>
                                 </constraints>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appylar_logo" translatesAutoresizingMaskIntoConstraints="NO" id="9rV-iK-YY1">
+                                <rect key="frame" x="142" y="161" width="91" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" text="Appylar Sample App" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6o7-sB-YP5">
+                                <rect key="frame" x="49" y="272" width="277" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -142,7 +128,6 @@
                         <outlet property="btnShowBanner" destination="WYL-xx-Kbx" id="vMy-jq-ToD"/>
                         <outlet property="btnShowInterstitial" destination="SP9-uZ-oF3" id="BAK-Rd-tFw"/>
                         <outlet property="topBannerView" destination="fph-Wf-dWO" id="pjc-x5-fIN"/>
-                        <outlet property="txtPlacement" destination="GUs-pD-W5j" id="gnI-oc-0mM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -155,7 +140,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2GI-qU-7y3" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pJU-ae-vTO">
-                        <rect key="frame" x="0.0" y="47" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -170,7 +155,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bct-PB-G7I" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" id="9f6-YC-NCz">
-                        <rect key="frame" x="0.0" y="47" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -184,6 +169,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="appylar_logo" width="320" height="560"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

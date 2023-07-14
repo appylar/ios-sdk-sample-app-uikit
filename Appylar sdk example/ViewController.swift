@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Appylar sdk example
-//
-//  Created by 5Exceptions on 16/12/22.
-//
-
 import UIKit
 import Appylar
 
@@ -13,22 +6,12 @@ class ViewController: InterstitialViewController {
     @IBOutlet weak var btnHideBanner: UIButton!
     @IBOutlet weak var btnShowInterstitial: UIButton!
     @IBOutlet weak var topBannerView: BannerView!
-    @IBOutlet weak var txtPlacement: UITextField!
-    
-    var apiKey = "OwDmESooYtY2kNPotIuhiQ"
-    var selectedAdTypes = [AdType.interstitial, AdType.banner]
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if #available(iOS 13.0, *) {
-            txtPlacement.delegate = self
-        } else {
-            // Fallback on earlier versions
-        }
-        txtPlacement.placeholder = "Enter placement(Optional)"
         AppylarManager.setEventListener(delegate: self,bannerDelegate: self,interstitialDelegate: self)
-        AppylarManager.Init(appKey: apiKey, adTypes: self.selectedAdTypes , testMode: true)
+        AppylarManager.Init(appKey: "OwDmESooYtY2kNPotIuhiQ", adTypes: [AdType.interstitial, AdType.banner] , testMode: true)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -50,13 +33,13 @@ class ViewController: InterstitialViewController {
     
     @IBAction func btnShowIntersitialDidTapped(_ sender: UIButton) {
         if InterstitialViewController.canShowAd(){
-            self.showAd() // MARK:- Placement parameter is optional for func showAd
+            self.showAd()
         }
     }
     
     private func showBanner(){
         if topBannerView.canShowAd(){
-            self.topBannerView.showAd(placement: txtPlacement.text ?? "") // MARK:- Placement parameter is optional for func showAd
+            self.topBannerView.showAd()
         }
         self.view.layoutIfNeeded()
     }
@@ -96,17 +79,3 @@ extension ViewController: InterstitialDelegate{
     }
 }
 
-//UI
-@available(iOS 13.0, *)
-extension ViewController: UITextFieldDelegate {
-
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        txtPlacement.resignFirstResponder()
-        return true
-    }
-    
-    func textFieldDidBeginEditing(_ textField: UITextField) {
-        txtPlacement.becomeFirstResponder()
-    }
-    
-}
