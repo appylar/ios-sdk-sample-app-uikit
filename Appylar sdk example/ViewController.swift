@@ -10,8 +10,16 @@ class ViewController: InterstitialViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Set event listener before initialization
         AppylarManager.setEventListener(delegate: self,bannerDelegate: self,interstitialDelegate: self)
-        AppylarManager.Init(appKey: "OwDmESooYtY2kNPotIuhiQ", adTypes: [AdType.interstitial, AdType.banner] , testMode: true)
+        
+        // Initialize
+        AppylarManager.Init(
+            appKey: "OwDmESooYtY2kNPotIuhiQ", // The unique app key for your app
+            adTypes: [AdType.interstitial, AdType.banner], // The ad types that you want to show
+            testMode: true // Test mode, true for development, false for production
+        )
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -46,34 +54,44 @@ class ViewController: InterstitialViewController {
 }
 
 extension ViewController : AppylarDelegate {
+    
+    // Event listener triggered at successful initialization
     func onInitialized() {
         print("onInitialized()")
     }
     
+    // Event listener triggered if an error occurs in the SDK
     func onError(error : String) {
         print( "onError() - \(error)")
     }
 }
 
 extension ViewController: BannerViewDelegate{
+    
+    // Event listener triggered when there are no banners to show
     func onNoBanner() {
         print("onNoBanner()")
     }
     
+    // Event listener triggered when a banner is shown
     func onBannerShown() {
         print( "onBannerShown()")
     }
 }
 
 extension ViewController: InterstitialDelegate{
+    
+    // Event listener triggered when there are no interstitials to show
     func onNoInterstitial() {
         print( "onNoInterstitial()")
     }
     
+    // Event listener triggered when an interstitial is shown
     func onInterstitialShown() {
         print( "onInterstitialShown()")
     }
     
+    // Event listener triggered when an interstitial is closed
     func onInterstitialClosed() {
         print( "onInterstitialClosed()")
     }

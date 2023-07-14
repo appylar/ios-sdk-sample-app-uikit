@@ -9,6 +9,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
+    // Define the app delegate to keep track of the screen orientations when device is flipped
     func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
         return AppylarManager.supportedOrientation
     }

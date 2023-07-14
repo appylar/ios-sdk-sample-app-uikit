@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bct-PB-G7I">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -17,11 +17,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7PK-MM-Eiz">
-                                <rect key="frame" x="14" y="356" width="355" height="297"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fph-Wf-dWO" customClass="BannerView" customModule="Appylar">
+                                <rect key="frame" x="0.0" y="144" width="375" height="0.0"/>
+                                <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="DrS-Rx-kxL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x8a-x5-FSh">
+                                <rect key="frame" x="0.0" y="244" width="375" height="50"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="IwR-YY-Z8W"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cpa-kW-MMr" customClass="BannerView" customModule="Appylar">
+                                <rect key="frame" x="0.0" y="776" width="375" height="2"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="C3j-Nf-ab3"/>
+                                </constraints>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7PK-MM-Eiz">
+                                <rect key="frame" x="10" y="354" width="355" height="395"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Be5-Ha-EaJ">
-                                        <rect key="frame" x="20" y="114" width="315" height="36"/>
+                                        <rect key="frame" x="20" y="223" width="315" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.45882352941176469" green="0.56470588235294117" blue="0.72941176470588232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -34,7 +55,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SP9-uZ-oF3">
-                                        <rect key="frame" x="20" y="165" width="315" height="37"/>
+                                        <rect key="frame" x="20" y="287" width="315" height="37"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.45882352941176469" green="0.56470588235294117" blue="0.72941176470588232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -47,7 +68,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYL-xx-Kbx">
-                                        <rect key="frame" x="20" y="51" width="315" height="38"/>
+                                        <rect key="frame" x="20" y="156" width="315" height="38"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.45882352941176469" green="0.56470588235294117" blue="0.72941176470588232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -59,47 +80,22 @@
                                             <action selector="btnShowBannerDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HTB-HX-hNa"/>
                                         </connections>
                                     </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Appylar Sample App" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1UN-tT-u5n">
+                                        <rect key="frame" x="-5" y="81" width="364" height="44.333333333333336"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appylar_logo" translatesAutoresizingMaskIntoConstraints="NO" id="GYr-Lf-P1o">
+                                        <rect key="frame" x="97" y="0.0" width="161" height="73"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="297" id="Ith-BU-G2b"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ce-w1-Ryc">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="94"/>
-                                <color key="backgroundColor" systemColor="systemCyanColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fph-Wf-dWO" customClass="BannerView" customModule="Appylar">
-                                <rect key="frame" x="0.0" y="144" width="375" height="0.0"/>
-                                <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" id="DrS-Rx-kxL"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x8a-x5-FSh">
-                                <rect key="frame" x="0.0" y="720" width="375" height="50"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="IwR-YY-Z8W"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpa-kW-MMr" customClass="BannerView" customModule="Appylar">
-                                <rect key="frame" x="0.0" y="778" width="375" height="0.0"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" id="C3j-Nf-ab3"/>
-                                </constraints>
-                            </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appylar_logo" translatesAutoresizingMaskIntoConstraints="NO" id="9rV-iK-YY1">
-                                <rect key="frame" x="142" y="161" width="91" height="78"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" text="Appylar Sample App" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6o7-sB-YP5">
-                                <rect key="frame" x="49" y="272" width="277" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -108,14 +104,9 @@
                             <constraint firstItem="fph-Wf-dWO" firstAttribute="top" secondItem="x8a-x5-FSh" secondAttribute="bottom" id="5LX-sn-L1y"/>
                             <constraint firstItem="Cpa-kW-MMr" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5bX-hc-q0R"/>
                             <constraint firstItem="7PK-MM-Eiz" firstAttribute="top" secondItem="fph-Wf-dWO" secondAttribute="bottom" constant="46" id="84e-Cn-KeL"/>
-                            <constraint firstItem="0Ce-w1-Ryc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IV3-9W-xXO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="0Ce-w1-Ryc" secondAttribute="bottom" id="JI8-DA-29W"/>
                             <constraint firstItem="x8a-x5-FSh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JaF-ig-ssL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7PK-MM-Eiz" secondAttribute="trailing" constant="10" id="Nd6-YO-vxh"/>
                             <constraint firstItem="Cpa-kW-MMr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ch5-xh-MM7"/>
-                            <constraint firstItem="x8a-x5-FSh" firstAttribute="top" secondItem="0Ce-w1-Ryc" secondAttribute="bottom" id="dJU-Op-dTh"/>
-                            <constraint firstItem="0Ce-w1-Ryc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fvC-73-6M6"/>
-                            <constraint firstAttribute="trailing" secondItem="0Ce-w1-Ryc" secondAttribute="trailing" id="kFF-Cp-Zqx"/>
                             <constraint firstItem="Cpa-kW-MMr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rvY-CS-IPK"/>
                             <constraint firstItem="x8a-x5-FSh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uiG-Bu-R9b"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fph-Wf-dWO" secondAttribute="trailing" id="ulq-sA-1D3"/>
@@ -124,48 +115,15 @@
                     </view>
                     <navigationItem key="navigationItem" title="Appylar demo" largeTitleDisplayMode="always" id="qkl-im-QJU"/>
                     <connections>
+                        <outlet property="bannerView" destination="fph-Wf-dWO" id="pjc-x5-fIN"/>
                         <outlet property="btnHideBanner" destination="Be5-Ha-EaJ" id="2JG-bc-DwD"/>
                         <outlet property="btnShowBanner" destination="WYL-xx-Kbx" id="vMy-jq-ToD"/>
                         <outlet property="btnShowInterstitial" destination="SP9-uZ-oF3" id="BAK-Rd-tFw"/>
-                        <outlet property="topBannerView" destination="fph-Wf-dWO" id="pjc-x5-fIN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2404" y="49.50738916256158"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="WyQ-mn-xD4">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2GI-qU-7y3" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pJU-ae-vTO">
-                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="T12-A6-TC1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="519.20000000000005" y="49.50738916256158"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="S8O-0K-B9H">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bct-PB-G7I" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" id="9f6-YC-NCz">
-                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="EK6-Mg-TRa"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x7D-s1-RLU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1461.5999999999999" y="49.50738916256158"/>
         </scene>
     </scenes>
     <resources>
