@@ -1,5 +1,5 @@
 
-# The Appylar iOS SDK sample app
+# The Appylar iOS UIKit SDK sample app
 
 This app contains a simple implementation of the Appylar iOS SDK. Before you run the app, add a valid app key in the init() function from an app registered on your Appylar account.
 
