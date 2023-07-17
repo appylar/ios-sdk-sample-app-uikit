@@ -28,6 +28,7 @@ class ViewController: InterstitialViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        view.layoutIfNeeded()
     }
     
     @IBAction func btnShowBannerDidTapped(_ sender: UIButton) {

@@ -255,9 +255,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "104"
-            endingLineNumber = "104"
-            landmarkName = "textFieldDidBeginEditing(_:)"
-            landmarkType = "7">
+            endingLineNumber = "104">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -271,9 +269,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "100"
-            endingLineNumber = "100"
-            landmarkName = "textFieldShouldReturn(_:)"
-            landmarkType = "7">
+            endingLineNumber = "100">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

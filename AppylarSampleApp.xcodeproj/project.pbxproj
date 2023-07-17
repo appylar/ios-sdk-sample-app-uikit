@@ -10,10 +10,8 @@
 		84AE1DDA2A4326F300140304 /* Appylar.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE1DD92A4326F200140304 /* Appylar.xcframework */; };
 		84AE1DDB2A4326F300140304 /* Appylar.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE1DD92A4326F200140304 /* Appylar.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED7C3B13294C7DE700C54FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C3B12294C7DE700C54FF0 /* AppDelegate.swift */; };
-		ED7C3B15294C7DE700C54FF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C3B14294C7DE700C54FF0 /* SceneDelegate.swift */; };
 		ED7C3B17294C7DE700C54FF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C3B16294C7DE700C54FF0 /* ViewController.swift */; };
 		ED7C3B1A294C7DE700C54FF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7C3B18294C7DE700C54FF0 /* Main.storyboard */; };
-		ED7C3B1D294C7DE700C54FF0 /* Appylar_sdk_example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED7C3B1B294C7DE700C54FF0 /* Appylar_sdk_example.xcdatamodeld */; };
 		ED7C3B1F294C7DEB00C54FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7C3B1E294C7DEB00C54FF0 /* Assets.xcassets */; };
 		ED7C3B22294C7DEB00C54FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7C3B20294C7DEB00C54FF0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -33,14 +31,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		849A1CAB2A15FCD800D0D11F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		84AE1DD92A4326F200140304 /* Appylar.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Appylar.xcframework; sourceTree = "<group>"; };
 		ED7C3B10294C7DE700C54FF0 /* Appylar sdk example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appylar sdk example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7C3B12294C7DE700C54FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED7C3B14294C7DE700C54FF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ED7C3B16294C7DE700C54FF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED7C3B19294C7DE700C54FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ED7C3B1C294C7DE700C54FF0 /* Appylar_sdk_example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Appylar_sdk_example.xcdatamodel; sourceTree = "<group>"; };
 		ED7C3B1E294C7DEB00C54FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED7C3B21294C7DEB00C54FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED7C3B23294C7DEB00C54FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +56,7 @@
 		ED7C3AE9294C7A5500C54FF0 = {
 			isa = PBXGroup;
 			children = (
-				ED7C3B11294C7DE700C54FF0 /* Appylar sdk example */,
+				ED7C3B11294C7DE700C54FF0 /* AppylarSampleApp */,
 				ED7C3AF4294C7A5500C54FF0 /* Products */,
 				ED7C3B29294C800D00C54FF0 /* Frameworks */,
 			);
@@ -75,26 +70,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED7C3B11294C7DE700C54FF0 /* Appylar sdk example */ = {
+		ED7C3B11294C7DE700C54FF0 /* AppylarSampleApp */ = {
 			isa = PBXGroup;
 			children = (
 				ED7C3B12294C7DE700C54FF0 /* AppDelegate.swift */,
-				ED7C3B14294C7DE700C54FF0 /* SceneDelegate.swift */,
 				ED7C3B16294C7DE700C54FF0 /* ViewController.swift */,
 				ED7C3B18294C7DE700C54FF0 /* Main.storyboard */,
 				ED7C3B1E294C7DEB00C54FF0 /* Assets.xcassets */,
 				ED7C3B20294C7DEB00C54FF0 /* LaunchScreen.storyboard */,
 				ED7C3B23294C7DEB00C54FF0 /* Info.plist */,
-				ED7C3B1B294C7DE700C54FF0 /* Appylar_sdk_example.xcdatamodeld */,
 			);
-			path = "Appylar sdk example";
+			path = AppylarSampleApp;
 			sourceTree = "<group>";
 		};
 		ED7C3B29294C800D00C54FF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				84AE1DD92A4326F200140304 /* Appylar.xcframework */,
-				849A1CAB2A15FCD800D0D11F /* AdSupport.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED7C3AED294C7A5500C54FF0 /* Build configuration list for PBXProject "Appylar SDK iOS" */;
+			buildConfigurationList = ED7C3AED294C7A5500C54FF0 /* Build configuration list for PBXProject "AppylarSampleApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -173,8 +165,6 @@
 			files = (
 				ED7C3B17294C7DE700C54FF0 /* ViewController.swift in Sources */,
 				ED7C3B13294C7DE700C54FF0 /* AppDelegate.swift in Sources */,
-				ED7C3B1D294C7DE700C54FF0 /* Appylar_sdk_example.xcdatamodeld in Sources */,
-				ED7C3B15294C7DE700C54FF0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +325,7 @@
 					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Appylar sdk example/Info.plist";
+				INFOPLIST_FILE = AppylarSampleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -371,7 +361,7 @@
 					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Appylar sdk example/Info.plist";
+				INFOPLIST_FILE = AppylarSampleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -395,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED7C3AED294C7A5500C54FF0 /* Build configuration list for PBXProject "Appylar SDK iOS" */ = {
+		ED7C3AED294C7A5500C54FF0 /* Build configuration list for PBXProject "AppylarSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED7C3AFA294C7A5500C54FF0 /* Debug */,
@@ -414,19 +404,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		ED7C3B1B294C7DE700C54FF0 /* Appylar_sdk_example.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				ED7C3B1C294C7DE700C54FF0 /* Appylar_sdk_example.xcdatamodel */,
-			);
-			currentVersion = ED7C3B1C294C7DE700C54FF0 /* Appylar_sdk_example.xcdatamodel */;
-			path = Appylar_sdk_example.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = ED7C3AEA294C7A5500C54FF0 /* Project object */;
 }
