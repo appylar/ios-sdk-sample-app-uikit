@@ -75,7 +75,7 @@ extension ViewController: BannerViewDelegate{
     }
     
     // Event listener triggered when a banner is shown
-    func onBannerShown() {
+    func onBannerShown(_ height: Int) {
         print( "onBannerShown()")
     }
 }

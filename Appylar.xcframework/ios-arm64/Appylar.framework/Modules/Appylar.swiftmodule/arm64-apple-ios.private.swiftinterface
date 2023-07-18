@@ -17,6 +17,7 @@ import _StringProcessing
     @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public static func canShowAd() -> Swift.Bool
   @_Concurrency.MainActor(unsafe) public func showAd(placement: Swift.String? = nil)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
@@ -68,7 +69,7 @@ public protocol AppylarDelegate {
 }
 public protocol BannerViewDelegate {
   func onNoBanner()
-  func onBannerShown()
+  func onBannerShown(_ height: Swift.Int)
 }
 public protocol InterstitialDelegate {
   func onNoInterstitial()
@@ -87,6 +88,9 @@ public protocol InterstitialDelegate {
 extension Appylar.BannerView : WebKit.WKUIDelegate, WebKit.WKNavigationDelegate, WebKit.WKScriptMessageHandler {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+}
+extension Appylar.BannerView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
 }
 extension Appylar.AdOrientation : Swift.Equatable {}
 extension Appylar.AdOrientation : Swift.Hashable {}
