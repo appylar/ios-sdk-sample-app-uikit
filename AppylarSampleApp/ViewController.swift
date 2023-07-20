@@ -5,7 +5,7 @@ class ViewController: InterstitialViewController {
     @IBOutlet weak var btnShowBanner: UIButton!
     @IBOutlet weak var btnHideBanner: UIButton!
     @IBOutlet weak var btnShowInterstitial: UIButton!
-    @IBOutlet weak var topBannerView: BannerView!
+    @IBOutlet weak var bannerView: BannerView!
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     
     override func viewDidLoad() {
@@ -31,24 +31,28 @@ class ViewController: InterstitialViewController {
         view.layoutIfNeeded()
     }
     
+    
     @IBAction func btnShowBannerDidTapped(_ sender: UIButton) {
         showBanner()
     }
     
+    // Hide banner
     @IBAction func btnHideBannerDidTapped(_ sender: UIButton) {
-        self.topBannerView.hideAd()
+        self.bannerView.hideAd()
         self.view.layoutIfNeeded()
     }
     
+    // Show interstitial
     @IBAction func btnShowIntersitialDidTapped(_ sender: UIButton) {
         if InterstitialViewController.canShowAd(){
             self.showAd()
         }
     }
     
+    // Show banner
     private func showBanner(){
-        if topBannerView.canShowAd(){
-            self.topBannerView.showAd()
+        if bannerView.canShowAd(){
+            self.bannerView.showAd()
         }
         self.view.layoutIfNeeded()
     }
