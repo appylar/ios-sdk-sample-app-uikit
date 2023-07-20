@@ -69,7 +69,7 @@ public protocol AppylarDelegate {
 }
 public protocol BannerViewDelegate {
   func onNoBanner()
-  func onBannerShown(_ height: Swift.Int)
+  func onBannerShown()
 }
 public protocol InterstitialDelegate {
   func onNoInterstitial()

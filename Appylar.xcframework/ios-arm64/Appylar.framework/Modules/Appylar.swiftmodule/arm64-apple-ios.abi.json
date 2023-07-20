@@ -1843,23 +1843,17 @@
           {
             "kind": "Function",
             "name": "onBannerShown",
-            "printedName": "onBannerShown(_:)",
+            "printedName": "onBannerShown()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Appylar18BannerViewDelegateP02onB5ShownyySiF",
-            "mangledName": "$s7Appylar18BannerViewDelegateP02onB5ShownyySiF",
+            "usr": "s:7Appylar18BannerViewDelegateP02onB5ShownyyF",
+            "mangledName": "$s7Appylar18BannerViewDelegateP02onB5ShownyyF",
             "moduleName": "Appylar",
             "genericSig": "<τ_0_0 where τ_0_0 : Appylar.BannerViewDelegate>",
             "sugared_genericSig": "<Self where Self : Appylar.BannerViewDelegate>",
