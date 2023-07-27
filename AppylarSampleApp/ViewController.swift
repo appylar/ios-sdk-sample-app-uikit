@@ -1,18 +1,18 @@
-import UIKit
 import Appylar
+import UIKit
 
 class ViewController: InterstitialViewController {
-    @IBOutlet weak var btnShowBanner: UIButton!
-    @IBOutlet weak var btnHideBanner: UIButton!
-    @IBOutlet weak var btnShowInterstitial: UIButton!
-    @IBOutlet weak var bannerView: BannerView!
+    @IBOutlet var btnShowBanner: UIButton!
+    @IBOutlet var btnHideBanner: UIButton!
+    @IBOutlet var btnShowInterstitial: UIButton!
+    @IBOutlet var bannerView: BannerView!
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Set event listener before initialization
-        AppylarManager.setEventListener(delegate: self,bannerDelegate: self,interstitialDelegate: self)
+        AppylarManager.setEventListener(delegate: self, bannerDelegate: self, interstitialDelegate: self)
         
         // Initialize
         AppylarManager.Init(
@@ -31,9 +31,8 @@ class ViewController: InterstitialViewController {
         view.layoutIfNeeded()
     }
     
-    
     @IBAction func btnShowBannerDidTapped(_ sender: UIButton) {
-        showBanner()
+        self.showBanner()
     }
     
     // Hide banner
@@ -44,35 +43,33 @@ class ViewController: InterstitialViewController {
     
     // Show interstitial
     @IBAction func btnShowIntersitialDidTapped(_ sender: UIButton) {
-        if InterstitialViewController.canShowAd(){
+        if InterstitialViewController.canShowAd() {
             self.showAd()
         }
     }
     
     // Show banner
-    private func showBanner(){
-        if bannerView.canShowAd(){
+    private func showBanner() {
+        if self.bannerView.canShowAd() {
             self.bannerView.showAd()
         }
         self.view.layoutIfNeeded()
     }
 }
 
-extension ViewController : AppylarDelegate {
-    
+extension ViewController: AppylarDelegate {
     // Event listener triggered at successful initialization
     func onInitialized() {
         print("onInitialized()")
     }
     
     // Event listener triggered if an error occurs in the SDK
-    func onError(error : String) {
-        print( "onError() - \(error)")
+    func onError(error: String) {
+        print("onError() - \(error)")
     }
 }
 
-extension ViewController: BannerViewDelegate{
-    
+extension ViewController: BannerViewDelegate {
     // Event listener triggered when there are no banners to show
     func onNoBanner() {
         print("onNoBanner()")
@@ -80,25 +77,23 @@ extension ViewController: BannerViewDelegate{
     
     // Event listener triggered when a banner is shown
     func onBannerShown() {
-        print( "onBannerShown()")
+        print("onBannerShown()")
     }
 }
 
-extension ViewController: InterstitialDelegate{
-    
+extension ViewController: InterstitialDelegate {
     // Event listener triggered when there are no interstitials to show
     func onNoInterstitial() {
-        print( "onNoInterstitial()")
+        print("onNoInterstitial()")
     }
     
     // Event listener triggered when an interstitial is shown
     func onInterstitialShown() {
-        print( "onInterstitialShown()")
+        print("onInterstitialShown()")
     }
     
     // Event listener triggered when an interstitial is closed
     func onInterstitialClosed() {
-        print( "onInterstitialClosed()")
+        print("onInterstitialClosed()")
     }
 }
-
