@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8412AF962A9DF620002845C8 /* Appylar.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8412AF952A9DF620002845C8 /* Appylar.xcframework */; };
-		8412AF972A9DF620002845C8 /* Appylar.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8412AF952A9DF620002845C8 /* Appylar.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED7C3B13294C7DE700C54FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C3B12294C7DE700C54FF0 /* AppDelegate.swift */; };
 		ED7C3B17294C7DE700C54FF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C3B16294C7DE700C54FF0 /* ViewController.swift */; };
 		ED7C3B1A294C7DE700C54FF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7C3B18294C7DE700C54FF0 /* Main.storyboard */; };
@@ -16,22 +14,7 @@
 		ED7C3B22294C7DEB00C54FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7C3B20294C7DEB00C54FF0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		8412AF982A9DF620002845C8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				8412AF972A9DF620002845C8 /* Appylar.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		8412AF952A9DF620002845C8 /* Appylar.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Appylar.xcframework; sourceTree = "<group>"; };
 		ED7C3B10294C7DE700C54FF0 /* Appylar sdk example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appylar sdk example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7C3B12294C7DE700C54FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED7C3B16294C7DE700C54FF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +29,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8412AF962A9DF620002845C8 /* Appylar.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +68,6 @@
 		ED7C3B29294C800D00C54FF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8412AF952A9DF620002845C8 /* Appylar.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,7 +82,6 @@
 				ED7C3B0C294C7DE700C54FF0 /* Sources */,
 				ED7C3B0D294C7DE700C54FF0 /* Frameworks */,
 				ED7C3B0E294C7DE700C54FF0 /* Resources */,
-				8412AF982A9DF620002845C8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
