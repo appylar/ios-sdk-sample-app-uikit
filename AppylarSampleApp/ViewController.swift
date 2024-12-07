@@ -16,7 +16,7 @@ class ViewController: InterstitialViewController {
         
         // Initialize
         AppylarManager.initialize(
-            appKey: "YOUR_APP_KEY", // The unique app key for your app
+            appKey: "<YOUR_IOS_APP_KEY>", // The unique app key for your app
             adTypes: [AdType.interstitial, AdType.banner], // The ad types that you want to show
             testMode: true // Test mode, true for development, false for production
         )
