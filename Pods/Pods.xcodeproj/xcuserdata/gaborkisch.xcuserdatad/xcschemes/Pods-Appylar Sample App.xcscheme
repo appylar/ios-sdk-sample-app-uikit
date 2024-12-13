@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1420"
+   LastUpgradeVersion = "1600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ED7C3B0F294C7DE700C54FF0"
-               BuildableName = "Appylar Sample App.app"
-               BlueprintName = "Appylar Sample App"
-               ReferencedContainer = "container:AppylarSampleApp.xcodeproj">
+               BlueprintIdentifier = "E8A67751FF39D6F77C00FC5728205029"
+               BuildableName = "Pods_Appylar_Sample_App.framework"
+               BlueprintName = "Pods-Appylar Sample App"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,23 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED7C3B0F294C7DE700C54FF0"
-            BuildableName = "Appylar Sample App.app"
-            BlueprintName = "Appylar Sample App"
-            ReferencedContainer = "container:AppylarSampleApp.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "OS_ACTIVITY_MODE"
-            value = "disable"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -64,16 +47,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED7C3B0F294C7DE700C54FF0"
-            BuildableName = "Appylar Sample App.app"
-            BlueprintName = "Appylar Sample App"
-            ReferencedContainer = "container:AppylarSampleApp.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

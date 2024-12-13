@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B1512221E2DCE4D6F89BF8206AC2E830 /* Appylar */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 51998E9FBE0C71C4310E693668FE643C /* Build configuration list for PBXAggregateTarget "Appylar" */;
+			buildPhases = (
+				EF63144C021816D19F44E9F6DA807E47 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = Appylar;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5C2EDF4663D8667AD1C86AA94398E2F4 /* Pods-Appylar Sample App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E7C481825775F3544457C99A13F0F8 /* Pods-Appylar Sample App-dummy.m */; };
+		6757AFDA2D7CB403979C1230A6E1E712 /* Pods-Appylar Sample App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A62E6DD6AB5F6E82BDEE9744D9ECACCF /* Pods-Appylar Sample App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0DACEFCD1541065855E31CE51A05CEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66D06D262FF1CF4DF95E60317902AA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1512221E2DCE4D6F89BF8206AC2E830;
+			remoteInfo = Appylar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107458E0D87E2170AE0A8B489E0F5385 /* Pods-Appylar Sample App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Appylar Sample App-frameworks.sh"; sourceTree = "<group>"; };
+		113D7E8BF63F5EF7105E5E3F5B5F3DA7 /* Pods-Appylar Sample App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Appylar Sample App-Info.plist"; sourceTree = "<group>"; };
+		1C9A45CBD812B6AB647CFE876A77AD14 /* Pods-Appylar Sample App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Appylar Sample App"; path = Pods_Appylar_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C777BF30126A8CBCAD55AB877D71E8 /* Appylar-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Appylar-xcframeworks.sh"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40B4FF735E36FA994901FD127C98F3D6 /* Pods-Appylar Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Appylar Sample App.release.xcconfig"; sourceTree = "<group>"; };
+		45944ADE60055DFADDD0BB40FFCF95F7 /* Pods-Appylar Sample App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Appylar Sample App-acknowledgements.plist"; sourceTree = "<group>"; };
+		45CF787C7F6A23CC3BEFFE0530305EB5 /* Pods-Appylar Sample App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Appylar Sample App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80B0404AFFF0F90460F2B9A300EFEFF7 /* Appylar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Appylar.release.xcconfig; sourceTree = "<group>"; };
+		91DF33D061FD56B6D5876D8ACE13BC7C /* Pods-Appylar Sample App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Appylar Sample App.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A62E6DD6AB5F6E82BDEE9744D9ECACCF /* Pods-Appylar Sample App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Appylar Sample App-umbrella.h"; sourceTree = "<group>"; };
+		B3752096DA75694488ED65E1DC14015C /* Appylar.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Appylar.xcframework; sourceTree = "<group>"; };
+		BB2CA9A8DD82BBBB0B20F09143ED1D23 /* Appylar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Appylar.debug.xcconfig; sourceTree = "<group>"; };
+		E2E7C481825775F3544457C99A13F0F8 /* Pods-Appylar Sample App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Appylar Sample App-dummy.m"; sourceTree = "<group>"; };
+		E4D0A2538F7366C31C0325C168C653B2 /* Pods-Appylar Sample App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Appylar Sample App.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1F03245F6AF0195A98544157211735D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DACEFCD1541065855E31CE51A05CEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43120399AA2EA15CFB74A77EA60F80DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C9A45CBD812B6AB647CFE876A77AD14 /* Pods-Appylar Sample App */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52620DEF23BE366F21D7973EA52FBB3F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99E62E57D54CA9D42105CA0C7303B222 /* Pods-Appylar Sample App */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D928225825CD04E86D63C82AD50487E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32C777BF30126A8CBCAD55AB877D71E8 /* Appylar-xcframeworks.sh */,
+				BB2CA9A8DD82BBBB0B20F09143ED1D23 /* Appylar.debug.xcconfig */,
+				80B0404AFFF0F90460F2B9A300EFEFF7 /* Appylar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Appylar";
+			sourceTree = "<group>";
+		};
+		974C02736DB1E4594087451807F39C58 /* Appylar */ = {
+			isa = PBXGroup;
+			children = (
+				B297B6B702C0B88C4CC048D2B6D10340 /* Frameworks */,
+				7D928225825CD04E86D63C82AD50487E /* Support Files */,
+			);
+			name = Appylar;
+			path = Appylar;
+			sourceTree = "<group>";
+		};
+		99E62E57D54CA9D42105CA0C7303B222 /* Pods-Appylar Sample App */ = {
+			isa = PBXGroup;
+			children = (
+				E4D0A2538F7366C31C0325C168C653B2 /* Pods-Appylar Sample App.modulemap */,
+				45CF787C7F6A23CC3BEFFE0530305EB5 /* Pods-Appylar Sample App-acknowledgements.markdown */,
+				45944ADE60055DFADDD0BB40FFCF95F7 /* Pods-Appylar Sample App-acknowledgements.plist */,
+				E2E7C481825775F3544457C99A13F0F8 /* Pods-Appylar Sample App-dummy.m */,
+				107458E0D87E2170AE0A8B489E0F5385 /* Pods-Appylar Sample App-frameworks.sh */,
+				113D7E8BF63F5EF7105E5E3F5B5F3DA7 /* Pods-Appylar Sample App-Info.plist */,
+				A62E6DD6AB5F6E82BDEE9744D9ECACCF /* Pods-Appylar Sample App-umbrella.h */,
+				91DF33D061FD56B6D5876D8ACE13BC7C /* Pods-Appylar Sample App.debug.xcconfig */,
+				40B4FF735E36FA994901FD127C98F3D6 /* Pods-Appylar Sample App.release.xcconfig */,
+			);
+			name = "Pods-Appylar Sample App";
+			path = "Target Support Files/Pods-Appylar Sample App";
+			sourceTree = "<group>";
+		};
+		B297B6B702C0B88C4CC048D2B6D10340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3752096DA75694488ED65E1DC14015C /* Appylar.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D1729CE1A557A382ADC4A8A734481906 /* Pods */,
+				43120399AA2EA15CFB74A77EA60F80DF /* Products */,
+				52620DEF23BE366F21D7973EA52FBB3F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1729CE1A557A382ADC4A8A734481906 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				974C02736DB1E4594087451807F39C58 /* Appylar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C934D19BA4F49324C6DCDD0F9DD1B015 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6757AFDA2D7CB403979C1230A6E1E712 /* Pods-Appylar Sample App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E8A67751FF39D6F77C00FC5728205029 /* Pods-Appylar Sample App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC75FAF9844B429E078709DDB4E6FEA0 /* Build configuration list for PBXNativeTarget "Pods-Appylar Sample App" */;
+			buildPhases = (
+				C934D19BA4F49324C6DCDD0F9DD1B015 /* Headers */,
+				138D5EA39A7396278BBE6B604118840B /* Sources */,
+				F1F03245F6AF0195A98544157211735D /* Frameworks */,
+				D1CA3A2A30A32DE081B921B99B31BF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45D98D6D3484C6B0F157D798C1A7ED1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Appylar Sample App";
+			productName = Pods_Appylar_Sample_App;
+			productReference = 1C9A45CBD812B6AB647CFE876A77AD14 /* Pods-Appylar Sample App */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 43120399AA2EA15CFB74A77EA60F80DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1512221E2DCE4D6F89BF8206AC2E830 /* Appylar */,
+				E8A67751FF39D6F77C00FC5728205029 /* Pods-Appylar Sample App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1CA3A2A30A32DE081B921B99B31BF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF63144C021816D19F44E9F6DA807E47 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Appylar/Appylar-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Appylar/Appylar-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Appylar/Appylar-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		138D5EA39A7396278BBE6B604118840B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2EDF4663D8667AD1C86AA94398E2F4 /* Pods-Appylar Sample App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E45D98D6D3484C6B0F157D798C1A7ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Appylar;
+			target = B1512221E2DCE4D6F89BF8206AC2E830 /* Appylar */;
+			targetProxy = 66D06D262FF1CF4DF95E60317902AA64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0335273C7D97151724D84E735B2C2989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91DF33D061FD56B6D5876D8ACE13BC7C /* Pods-Appylar Sample App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Appylar Sample App/Pods-Appylar Sample App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Appylar Sample App/Pods-Appylar Sample App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		586B20428748887A6B653208D1FEF2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B4FF735E36FA994901FD127C98F3D6 /* Pods-Appylar Sample App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Appylar Sample App/Pods-Appylar Sample App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Appylar Sample App/Pods-Appylar Sample App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		65E6F7813DD69E84684DB5FA8B95A186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB2CA9A8DD82BBBB0B20F09143ED1D23 /* Appylar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC846261A57DAA2F6DEA3F20572B4BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80B0404AFFF0F90460F2B9A300EFEFF7 /* Appylar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51998E9FBE0C71C4310E693668FE643C /* Build configuration list for PBXAggregateTarget "Appylar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E6F7813DD69E84684DB5FA8B95A186 /* Debug */,
+				AC846261A57DAA2F6DEA3F20572B4BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC75FAF9844B429E078709DDB4E6FEA0 /* Build configuration list for PBXNativeTarget "Pods-Appylar Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0335273C7D97151724D84E735B2C2989 /* Debug */,
+				586B20428748887A6B653208D1FEF2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
